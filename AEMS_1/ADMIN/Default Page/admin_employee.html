@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Page</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to the AEMS Admin Page</h1>
+    </header>
+    <div class="fixed">
+        <p class="logo-text">AEMS</p>
+        <a href="../Default Page/admin_employee.html"><img class="home-icon insider" src="../Images/home_icon.png"
+                alt="home" title="Home" width="28" height="28"> </a>
+        <a href="../EMPLOYEE_INFOnUPDATE/index.html"><img class="emp-icon insider edit_emp"
+                src="../Images/employee_icon.png" alt="emp-icon" title="Employee Information" width="32" height="32">
+        </a>
+        <a href="../TASK PAGE/index.html"><img class="task-icon insider task" src="../Images/task_icon1.png"
+                alt="task-icon" title="Task Page" width="30" height="30"> </a>
+        <a href="../LEAVE PAGE/index.html"><img class="leave-icon insider leave" src="../Images/leave_icon.png"
+                alt="leave-icon" title="Leave Page" width="30" height="30"> </a>
+        <a href="../LEAVE_REQUEST/index.html"><img class="logout-icon insider logout" src="../Images/logout_icon.png"
+                alt="leave-icon" title="Leave Page" width="30" height="30"> </a>
+    </div>
+    <main>
+        <section class="profile">
+            <h2>My Profile</h2>
+            <form>
+                <label for="userId">User ID:</label>
+                <input type="text" id="userId" name="userId" value="123456" disabled>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" value="John Cena">
+                <label for="department">Department:</label>
+                <input type="text" id="department" name="department" value="IT">
+                <label for="position">Position:</label>
+                <input type="text" id="position" name="position" value="Software Engineer">
+            </form>
+        </section>
+        <section class="tasks">
+            <h2>Tasks</h2>
+            <form id="taskForm">
+                <input type="text" name="task1" value="Complete project report"><br>
+                <input type="text" name="task2" value="Attend team meeting at 10:00 AM"><br>
+                <input type="text" name="task3" value="Review code for pull request"><br>
+            </form>
+        </section>
+    </main>
+    <section class="updates">
+        <h2>Updates</h2>
+        <form id="updateUpdatesForm">
+            <input type="text" name="update1" value="Update 1"><br>
+            <input type="text" name="update2" value="Update 2"><br>
+            <input type="text" name="update3" value="Update 3"><br>
+        </form>
+    </section>
+    <section class="company-news">
+        <h2>Company News</h2>
+        <form id="updateNewsForm">
+            <input type="text" name="news1" value="News 1"><br>
+            <input type="text" name="news2" value="News 2"><br>
+            <input type="text" name="news3" value="News 3"><br>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 AEMS. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
